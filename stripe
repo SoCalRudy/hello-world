@@ -1,0 +1,5 @@
+curl https://api.stripe.com/v1/customers \
+   -u sk_test_t0hX6qer0ZbqRbzdGECyxojk: \
+   -d source=tok_1BP35hKSjA4PIgCkprRuc7Xt \
+   -d description="Matthew Jones" \
+   -d email="matthew.jones.53@example.com"
